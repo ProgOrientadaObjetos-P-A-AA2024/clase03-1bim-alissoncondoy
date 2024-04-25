@@ -16,5 +16,7 @@ public class Ejecutable {
         Hospital h2 = new Hospital();
         Hospital hospitalLoja = new Hospital();
         Hospital hospital_loja = new Hospital();
+        
+        System.out.println(hospital);
     }
 }
