@@ -17,4 +17,44 @@ public class InstitucionEducativa {
     private int numeroSedes;
     
     /*Crear los método necesarios*/
+    public void establecerNombre(String c) {
+        nombre = c;
+    }
+    
+    public void establecerTipoInstitucion(String c) {
+        tipoInstitucion = c;
+    }
+    
+    public void establecerNumeroAlumnos(int c) {
+        numeroAlumnos = c;      
+    }
+    
+    public void establecerNumeroDocentes(int c) {
+        numeroDocentes = c;
+    }
+    
+    public void establecerNumeroSedes(int c) {
+        numeroSedes = c;
+    }
+    
+    public String obtenerNombre() {
+        return nombre;
+    }
+    
+    public String obtenerTipoInstitucion() {
+        return tipoInstitucion;
+    }
+    
+    public int obtenerNumeroAlumnos () {
+        return numeroAlumnos;
+    }
+    
+    public int obtenerNumeroDocentes() {
+        return numeroDocentes;        
+    }
+    
+    public int obtenerNumeroSedes() {
+        return numeroSedes;
+    }
+    
 }
