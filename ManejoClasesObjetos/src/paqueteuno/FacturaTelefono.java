@@ -1,20 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package paqueteuno;
 
-/**
- *
- * @author reroes
- */
 public class FacturaTelefono {
+    /* atributos privados */
     private String numeroTelefono;
     private double minutosMes;
     private double valorMinuto;
     private double valorFactura;
+    private String nombresCompletos;
     
+    /*metodos */
     public void establecerNumeroTelefono(String c){
         numeroTelefono = c;
     }
@@ -25,6 +19,9 @@ public class FacturaTelefono {
     
     public void establecerValorMinuto(double c){
         valorMinuto = c;
+    }
+    public void establecerNombresCompletos(String c) {
+        nombresCompletos = c;
     }
     
     // public void establecerValorFactura(){
@@ -43,7 +40,9 @@ public class FacturaTelefono {
     public double obtenerValorMinuto(){
         return valorMinuto;
     }
-    
+    public String obtenerNombresComletos() {
+        return nombresCompletos;
+    }
     public double obtenerValorFactura(){
         return valorFactura;
     }
